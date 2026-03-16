@@ -1,0 +1,1 @@
+This project is a small web application that simulates a food ordering platform. It focuses on implementing basic CRUD functionality through a shopping cart where items can be added, updated and removed dynamically. The goal of the project was to practice JavaScript logic, state handling and interactive frontend behavior.
