@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+}
+
+.dispf{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+nav_section{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px silver;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    height: 72px;
+}
+
+img{
+    width: 48px;
+    max-height: 320px;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.atf_section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.atf_section img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.atf_img{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.atf_img img{
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    /* flex: 1; */
+}
+
+.inhalt{
+    margin: auto;
+    min-width: 65%;
+}
+
+h2{
+    font-size: larger;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.meal{
+    /* border: 1px solid rgba(0, 0, 0, 0.4) ; */
+    margin: 20px;
+    padding: 10px;
+    /* border: 5px solid lightgoldenrodyellow; */
+    background-color: #FCFCFC;
+}
+
+.borderbox{
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.basketheadline{
+    display: flex;
+    justify-content: center;
+    /* width: 320px; */
+}
+
+.mkrow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+}
+
+.iconbckgrnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f3f1;
+    border-radius: 16px;
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+    flex: 0 0 auto;
+}
+
+/* .plusobj img{
+    height: 20px;
+    width: 20px;
+    padding: 4px;
+} */
+
+.plusobj img:hover{
+    cursor: pointer;
+}
+
+.deliveroption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(239,237,234);
+    height: 52px;
+    width: 328px;
+    padding: 2px;
+    border-radius: 26px;
+}
+
+.deliverchoice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26px;
+    height: 52px;
+    background-color: white;
+    font-weight: bold;
+    flex: 1;
+    text-align: center;
+}
+
+#price{
+    margin: 8px 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.basketcontent{
+    /* padding-right: 8px; */
+    /* height: 60vh; */
+    overflow: auto;
+    /* padding-bottom: 150px; */
+    min-height: calc(100vh - 256px - 72px);
+    max-height: calc(100vh - 256px - 72px);
+}
+
+.basket{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 320px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.relative{
+    position: relative;
+    height: 100vh;
+}
+
+.basketsumBg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    /* width: 100%; */
+    height: 150px;
+    /* top: 70vh; */
+}
+
+.basketsum{
+    background-color: orange;
+}
+
+.basketsumbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    background-color: orange;
+    height: 26px;
+    padding: 9px;
+    border-radius: 44px;
+    /* position: absolute; */
+    /* top: 80vh; */
+}
+
+.btborderbox{
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bth2{
+    font-size: large;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+#btprice{
+    margin: 8px 0;
+    font-size: larger;
+    font-weight: bold;
+    text-align: right;
+}
+
+#pricecrowd{
+    text-align: right;
+}
+
+.btingredient{
+    padding-bottom: 8px;
+}
+
+.addorsub{
+    height: 20px;
+    padding: 8px;
+}
+
+.eins{
+    display: flex;
+    flex-direction: column;
+}
+
+.eins img{
+    width: 100%;
+}
+
+.zwei{
+    display: flex;
+    flex-direction: row;
+}
+
+.baskett{
+    width: 320px;
+}
+
+.drei{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .dnone{
+        display: none;
+    }
+}
